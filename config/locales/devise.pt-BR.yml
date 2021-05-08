@@ -1,0 +1,65 @@
+# Additional translations at https://github.com/heartcombo/devise/wiki/I18n
+
+pt-BR:
+  devise:
+    confirmations:
+      confirmed: "Seu endereço de email foi confirmado com sucesso."
+      send_instructions: "Você receberá um email com instruções de como confirmar o seu endereço de email em alguns minutos."
+      send_paranoid_instructions: "Se o teu endereço de email existir em nosso banco de dados, você receberá um email com instruções de como confirmar o seu endereço de email em alguns minutos."
+    failure:
+      already_authenticated: "Você já está autenticado."
+      inactive: "Tua conta não fora ativada ainda."
+      invalid: "%{authentication_keys} ou senha inválida."
+      locked: "Tua conta está travada."
+      last_attempt: "Você tem mais uma tentativa antes do travamento da tua conta."
+      not_found_in_database: "%{authentication_keys} ou senha inválida."
+      timeout: "Sua sessão expirou. Por favor se autentique novamente para continuar."
+      unauthenticated: "Você precisa se autenticar ou se cadastrar antes de continuar."
+      unconfirmed: "Você precisa confirmar o seu email antes de continuar."
+    mailer:
+      confirmation_instructions:
+        subject: "Instruções de confirmação"
+      reset_password_instructions:
+        subject: "Instruções para redefinição de senha"
+      unlock_instructions:
+        subject: "Instruções para destravar a conta"
+      email_changed:
+        subject: "Email Alterado"
+      password_change:
+        subject: "Senha Alterada"
+    omniauth_callbacks:
+      failure: "Não foi possivel autenticar a partir de %{kind} por causa de: \"%{reason}\"."
+      success: "Autenticado com sucesso a partir da conta %{kind}."
+    passwords:
+      no_token: "Você não pode acessar esta página sem estar vindo de um email de redefinição de senha. Se você veio a partir de um email de redefinição, por favor confira se você acessou a URL completa que foi enviada."
+      send_instructions: "Você receberá um email explicando como redefinir tua senha em alguns minutos."
+      send_paranoid_instructions: "Se o teu endereço de email existir em nosso banco de dados, você receberá um link de recuperação em seu endereço de email em alguns minutos."
+      updated: "Tua senha foi alterada com sucesso. Você está autenticado agora."
+      updated_not_active: "Tua senha foi alterada com sucesso."
+    registrations:
+      destroyed: "Adiós! Tua conta fora cancelada com sucesso. Esperamos te ver novamente em breve."
+      signed_up: "Bem vindo! Você se cadastrou com sucesso."
+      signed_up_but_inactive: "Você se cadastrou com sucesso. No entanto, não podemos te autenticar pois tua conta ainda não fora ativada."
+      signed_up_but_locked: "Você se cadastrou com sucesso. No entanto, não podemos te autenticar pois tua conta está travada."
+      signed_up_but_unconfirmed: "Uma mensagem com um link de confirmação fora enviado para teu endereço de email. Por favor siga o link para ativar tua conta."
+      update_needs_confirmation: "Você atualizou tua conta com sucesso, mas precisamos verificar teu novo endereço de email. Por favor cheque teu email e siga o link de confirmação para confirmar teu endereço de email."
+      updated: "Tua conta foi atualizada com sucesso."
+      updated_but_not_signed_in: "Tua conta foi atualizada com sucesso, mas considerando que tua senha foi alterada, é necessario que se autentique novamente."
+    sessions:
+      signed_in: "Autenticado com sucesso."
+      signed_out: "Sessão encerrada."
+      already_signed_out: "Sessão encerrada."
+    unlocks:
+      send_instructions: "Você receberá um email com instruções explicando como destravar tua conta em alguns minutos."
+      send_paranoid_instructions: "Se tua conta existe, você receberá um email explicando como destravar tua conta em alguns minutos."
+      unlocked: "Tua conta foi destravada com sucesso! Por favor se autentique para continuar."
+  errors:
+    messages:
+      already_confirmed: "já foi confirmado, por favor tente se autenticar"
+      confirmation_period_expired: "precisa ser confirmado dentro de %{period}, por favor requisite um novo"
+      expired: "expirou, por favor requisite um novo"
+      not_found: "não encontrado"
+      not_locked: "não foi travado"
+      not_saved:
+        one: "1 erro impediu este(a) %{resource} de ser salvo:"
+        other: "%{count} erros impediram este(a) %{resource} de ser salvo:"
