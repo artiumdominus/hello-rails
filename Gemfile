@@ -30,6 +30,14 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'devise'
 
+gem 'rom'
+gem 'rom-sql'
+gem 'rom-rails'
+gem 'rom-repository'
+
+gem 'dry-container'
+gem 'dry-auto_inject'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
